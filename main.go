@@ -1,16 +1,7 @@
 package main
 
-import "github.com/gin-gonic/gin"
-
-func ExibeTodosAlunos(ctx *gin.Context) {
-	ctx.JSON(200, gin.H{
-		"id":   "1",
-		"Nome": "Manuel",
-	})
-}
+import "estudo/5gin-rest-go/routes"
 
 func main() {
-	r := gin.Default()
-	r.GET("/alunos", ExibeTodosAlunos)
-	r.Run()
+	routes.HandleRequests()
 }
