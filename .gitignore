@@ -1267,3 +1267,9 @@ postgres-data/pg_multixact/offsets/0000
 postgres-data/pg_subtrans/0000
 postgres-data/pg_wal/000000010000000000000001
 postgres-data/pg_xact/0000
+postgres-data/base/16384/16388
+postgres-data/base/16384/16389
+postgres-data/base/16384/16393
+postgres-data/base/16384/16394
+postgres-data/base/16384/16395
+postgres-data/base/16384/16397
